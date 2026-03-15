@@ -9,7 +9,7 @@ output_csv = sys.argv[2]  # get output file path from terminal
 def mean_quality(qual):
     scores = []
     for c in qual:
-        scores.append(10 ** (((ord(c) - 33) / -10))) # convert ASCII standard to corresponding Phred quality score
+        scores.append(ord(c) - 33) # convert ASCII standard to corresponding Phred quality score
     return sum(scores) / len(scores) # get the mean quality score 
 
 def gc_content(seq):
