@@ -1,0 +1,2 @@
+https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html
+https://www.genomicsengland.co.uk/blog/genomics-101-long-read-sequencing
