@@ -1,0 +1,13 @@
+name: main_env
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.11
+  - pandas
+  - matplotlib
+  - nanoplot
+ 
+

@@ -1,0 +1,6 @@
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+__pycache__/
+*.pyc
